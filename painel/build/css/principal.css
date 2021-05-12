@@ -1,0 +1,84 @@
+article.media {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.right-icons{
+	text-align: right !important;
+}
+
+.right-icons i{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.verde{
+	color: #27c24c!important
+}
+
+#visualizar-requisicao h1 span{
+	display: block;
+	font-size: 20px;
+	color: #cb251e;
+}
+
+#visualizar-requisicao h3{
+	font-weight: bold;
+	color: #b01419;
+}
+
+#visualizar-requisicao h5 span{
+	display: block;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #666;
+}
+
+.capa-agendamento{
+	font-size: 16px;
+	font-weight: bold;
+	color: #d2bc60;
+	text-align: center;
+}
+.tit-hed{
+	text-align: center;
+	font-size:20px;
+}
+
+.site_title{
+	height: 116px;
+	background: url(../../images/chronos.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+}
+
+.nav_title{
+	background:#fff ;
+	height: 154px;
+}
+
+.nav-sm	.site_title{
+	height: 50px;
+	background: url(../../images/chronos-mini.png) no-repeat center center;
+	background-size: contain;
+	width: 100%;
+}
+
+.nav-sm .nav_title{
+	background:#fff ;
+	height: 75px;
+}
+
+
+@media only screen and  (max-width:768px){
+
+
+}
+
+/*CSS para impressão*/
+@media print {
+
+	.top_nav,.title_left,.btn, footer{
+		display: none !important;
+	}
+}

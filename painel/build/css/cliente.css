@@ -1,0 +1,130 @@
+body{
+  background: #fff !important;
+}
+
+.text-end{
+  text-align: right;
+  float: right;
+}
+
+.topo-cliente{
+  background: #cb251e;
+  color: #fff;
+}
+
+.topo-cliente a{
+  color: #fff;
+  display: inline-block;
+  padding:10px;
+}
+
+.topo-cliente a i{
+  font-size: 30px;
+}
+
+.mnnav{
+  margin-top: 0;
+}
+
+.center{
+  text-align: center;
+  margin:30px auto;
+}
+
+.accordion{
+  margin-bottom: 30px;
+}
+.rodape-fundo{
+  background:#7f8297;
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  padding:20px 0;
+}
+.rodape-fundo p{
+  margin-bottom: 0;
+}
+
+.accordion>.card{
+  border-radius: 6px !important;
+  border:0 !important;
+}
+
+.card-header{
+  background:#cb1d1d;
+}
+
+.accordion>.card button{
+  font-size: 2rem;
+  color: #fff !important;
+}
+.card-body{
+  background:#dc401a;
+  font-size: 1.5rem;
+}
+.card-body a{
+  color: #fff;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #111;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.container{
+  max-width: 1000px;
+  
+}
+
+
+.sessao-guia h3{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom:0;
+  color: #982f46;
+}
+
+.sessao-guia p.center{
+  margin-top: 0;
+}
+
+.sessao-guia p{
+  font-size: 14px;
+  color: #111;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
