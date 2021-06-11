@@ -36,7 +36,7 @@
                    <!--<h1 class="mb-3 fw-normal">Acessar <span> Ou <a href="criar-conta.php">Criar conta</a> | <a href="criar-medico.php">Sou médico</a></span></h1>-->
                     <label for="inputEmail" >SEU E-MAIL</label>
                     <input type="email" id="inputEmail" class="form-control form-control-lg"  autofocus="">
-                    <label for="inputPassword" id="blc-senha" >SENHA <span><a href="">esqueceu a senha?</a></span></label>
+                    <label for="inputPassword" id="blc-senha" >SENHA <span><!--<a href="recuperar-senha.php">esqueceu a senha?</a>--></span></label>
                     <input type="password" id="inputPassword" class="form-control form-control-lg"  required="">
                     
                     <button class=" btn btn-lg btn-dark" type="submit">Acessar</button>

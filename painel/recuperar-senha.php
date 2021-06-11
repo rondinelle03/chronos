@@ -5,7 +5,7 @@
           <div class="">
            <div class="page-title">
             <div class="title_left">
-              <h3>Cadastrar Usuário</h3>
+              <h3>Recuperar senha</h3>
             </div>
 
             <div class="title_right">
@@ -33,27 +33,13 @@
                   <br />
                   <form id="demo-form2" data-parsley-validate class="form-horizontal form-label-left">
 
-                    <div class="item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="nomecompleto">Nome Completo <span class="required">*</span>
-                      </label>
-                      <div class="col-md-6 col-sm-6 ">
-                        <input type="text" id="nomecompleto" required="required" class="form-control ">
-                      </div>
-                    </div>
-                 
+                    
 
                     <div class="item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="login">Enail: <span class="required">*</span>
+                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="login">Digite seu E-mail: <span class="required">*</span>
                       </label>
                       <div class="col-md-6 col-sm-6 ">
                         <input type="email" id="login" required="required" class="form-control ">
-                      </div>
-                    </div>
-                    <div class="item form-group">
-                      <label class="col-form-label col-md-3 col-sm-3 label-align" for="senha">Senha: <span class="required">*</span>
-                      </label>
-                      <div class="col-md-6 col-sm-6 ">
-                        <input type="text" id="senha"  class="form-control " required="required">
                       </div>
                     </div>
                    

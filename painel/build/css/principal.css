@@ -72,7 +72,13 @@ article.media {
 
 @media only screen and  (max-width:768px){
 
+	.title_left{
+		width: 100% !important;
+	}
 
+	.title_right{
+		width: 100% !important;
+	}
 }
 
 /*CSS para impressão*/

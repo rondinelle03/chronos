@@ -67,13 +67,10 @@
                       <img src="images/img.jpg" alt="">John Doe
                     </a>
                     <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item"  href="javascript:;"> Profile</a>
-                        <a class="dropdown-item"  href="javascript:;">
-                          <span class="badge bg-red pull-right">50%</span>
-                          <span>Settings</span>
-                        </a>
-                    <a class="dropdown-item"  href="javascript:;">Help</a>
-                      <a class="dropdown-item"  href="index.php"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                      <a class="dropdown-item"  href="_cadastrar-usuario.php"> Configuração</a>
+                        
+                  
+                      <a class="dropdown-item"  href="index.php"><i class="fa fa-sign-out pull-right"></i> Sair</a>
                     </div>
                   </li>
   
