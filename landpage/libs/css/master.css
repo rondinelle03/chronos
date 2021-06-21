@@ -4,13 +4,14 @@ font-family: 'Roboto', sans-serif;*/
 
 body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, input, textarea {
     font-family: 'Montserrat', sans-serif;
-	
+	color: #9B9393;
 }
 h1, h2, h3, h4, h5, h6, strong{
 	font-weight: 700;
 }
 
 a, a:hover{
+	color: #9B9393;
 	text-decoration: none;
 }
 
@@ -24,7 +25,7 @@ a, a:hover{
 }
 
 header{
-	background: url(../../img/bg-topo.jpg) no-repeat center top;
+	background: #f8f9fa url(../../img/bg-topo.jpg) no-repeat center top;
 	color: #fff;
 }
 
@@ -60,6 +61,7 @@ header a{
 }
 .banner-capa h1{
 	margin-bottom: 15px;
+	color: #fff;
 }
 .banner-capa h1 span{
 	display: block;
@@ -82,7 +84,8 @@ header a{
 }
 
 #sessao-atendimentos{
-	background:url(../../img/bg-atendimentos.jpg) no-repeat right center;
+	    background: #f8f9fa url(../../img/bg-atendimentos.jpg) no-repeat right bottom;
+    padding-bottom: 100px;
 }
 
 #sessao-atendimentos h2{
@@ -109,22 +112,215 @@ header a{
 	padding: 0;
 	display: table;
 	width: 100%;
-	margin: 0;
+	margin: 120px 0 80px 0;
 }
 
 .lista-servicos li{
 	display: inline-block;
 	width: 50%;
+	background: url("../../img/ico.png") no-repeat left center;
+	color: #9B9393;
+	font-size: 25px;
+	padding: 7px 0px 7px 50px;
+}
+
+
+.moreinf{
+	font-size: 25px;
+	margin-top: 40px;
+	text-align: center;
+	font-style: italic;
+}
+
+#tb-ab{
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+}
+
+.dest-img{
+	background: url(../../img/quem-inf.png) repeat-x center bottom ;
+	text-align: center;
+	padding-bottom: 70px;
+}
+
+.sessao-profissionais{
+	background: #F8F8F8;
+	padding: 60px 0;
+	margin: 60px 0;
+}
+
+.sessao-profissionais h3{
+	color: #D2BC60;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+.sessao-profissionais img,.sessao-profissionais h4,.sessao-profissionais ul{
+	display: inline-table;
+}
+
+.sessao-profissionais ul{
+	width: 400px;
+	list-style-type: none;
+	padding: 0 0 0 20px;
+	vertical-align: top;
+}
+.sessao-profissionais ul h4{
+	color:#554D4D;
+	font-size:30px;
+}
+.sessao-profissionais ul h4 span{
+	font-size:10px;
+	color:#D2BC60;
+}
+.sessao-profissionais ul li{
+	font-size:14px;
+	margin-bottom:10px;
+}
+.sessao-profissionais ul li a{
+	color:#D2BC60;
+	font-style:italic;
+}
+footer{
+	margin-top: 40px;
+	background: #1C1C1C;
+    height: 115px;
+    color: #878686;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 47px;
+}
+#cus-destaques h5{
+	margin-top: 12px;
+	font-size: 18px;
+	color: #554D4D;
+}
+.sessao-cursos-disponiveis h2{
+	font-size: 40px;
+	text-align: center;
+	color: #554D4D;
+	margin-bottom: 50px;
+}
+
+.sessao-cursos-disponiveis p{
+	color: #D2BC60;
+}
+
+.sessao-cursos-disponiveis p span{
+	color:#9B9393;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #D2BC60;
+}
+.owl-dots{
+	margin-top: 30px;
+}
+
+.inter{
+	text-align: center;
+	border: 1px solid #C4C4C4;
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	padding: 8px;
+	border-radius: 30px;
+}
+
+.inter:hover{
+	background:#554D4D;
+	color:#fff;
+}
+
+.sessao-chromos{
+	margin-top: 80px;
+}
+.blc-table h3{
+	font-size:40px;
+	color:#9F830C;
+}
+.blc-table{
+	display: table-cell;
+	vertical-align: middle;
+	height: 760px;
+	width: 100%;
+}
+.sessao-cursos-oferecidos{
+	background: #E8E7E7;
+	padding: 80px 0;
+}
+
+.tit-ofercido{
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 70px;
+	color: #3A3A3A;
+	text-align: center;
+}
+
+.tit-ofercido span{
+	font-weight: 100;
+	color: #D2BC60;
+}
+
+.bloco{
+	background: #ffff;
+	padding: 35px 30px;
+	width: 100%;
+	min-height: 300px;
+	margin-bottom: 30px;
+}
+
+.bloco h4{
+	font-size: 30px;
+	color: #554D4D;
+}
+.bloco h4 span{
+	display: block;
+}
+
+.modal-content{
+	background: #1c1c1c;
 }
 
 /*  TESTES DE RESOLUCAOES PADROES */
 
-@media only screen and  (min-width:1600px) {
+@media only screen and  (min-width:1024px) {
 
 	
-
+.modal-dialog {
+    max-width: 900px;
+}
+.modal-header,.modal-footer{
+	border: 0;
 }
 
+.alert-light {
+    color: #fff;
+    background-color: #111;
+    border-color: #111;
+    font-size: 12px;
+}
+
+.alert-light a{
+	color: #D2BC60;
+}
+
+.x_title{
+	display: block;
+	width: 100%;
+	margin: 15px 0;
+}
+.x_title h2{
+	color: #fff;
+	font-size: 16px;
+}
+
+#inscricao-form label{
+	font-size: 11px;
+	color: #D2BC60;
+}
 @media only screen and  (min-width:1441px) and (max-width:1600px){
 
 	
