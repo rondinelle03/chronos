@@ -28,7 +28,8 @@
                   </li>
                    <li><a><i class="fa fa-play-circle-o"></i> Cursos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="#">Cadastrar Cursos</a></li>
+                      <li><a href="_cadastrar-curso.php">Cadastrar Cursos</a></li>
+
                       <li><a href="_listar-cursos.php">Listar Cursos</a></li>
                       
                      

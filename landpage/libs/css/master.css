@@ -29,6 +29,14 @@ header{
 	color: #fff;
 }
 
+.f-nav{
+	background: #3A3A3A;
+}
+
+.assinatura{
+	font-size: 11px;
+}
+
 header a{
 	color: #fff !important;
 }
@@ -185,7 +193,7 @@ header a{
 footer{
 	margin-top: 40px;
 	background: #1C1C1C;
-    height: 115px;
+    min-height: 115px;
     color: #878686;
     font-size: 18px;
     text-align: center;
@@ -321,6 +329,9 @@ footer{
 	font-size: 11px;
 	color: #D2BC60;
 }
+
+
+}
 @media only screen and  (min-width:1441px) and (max-width:1600px){
 
 	
@@ -354,10 +365,101 @@ footer{
 
 @media only screen and  (max-width:768px){
 
+
+
 	.lista-servicos li{
 	display: block;
 	width: 100% !important;
+	font-size: 1em;
+}
+.lista-servicos{
+	margin: 60px 0 80px 0;
 }
 
+.tit-ofercido {
+    font-size: 2em;
+
+    }
+
+#sessao-atendimentos{
+		padding-top: 70px;
+	}
+
+#sessao-atendimentos h2,.sessao-cursos-disponiveis h2 {
+    font-size: 2.5em !important;
+
+   }
+
+   #sessao-atendimentos h2 span{
+   	font-size: 0.6em;
+   }
+
+ .navbar-brand img{
+ 	width: 80%;
+ }
+.moreinf {
+    font-size: 1em;
+}
+ .banner-capa {
+ padding-top: 180px;
+	}
+
+	header iframe{
+		margin-top: 30px;
+		height: auto !important;
+	}
 	
+	.sessao-profissionais ul {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.blc-table{
+	padding-top: 60px;
+	height: auto !important;
+}
+
+.blc-table h3 {
+    font-size: 2em;
+}
+.bloco h4 {
+    font-size: 1.3em;
+}
+.sessao-profissionais h3{
+	font-size: 2em;
+}
+footer{
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+.navbar-brand{
+	width: 240px;
+}
+.navbar-collapse{
+	padding: 15px;
+	background: #111;
+}
+#nav-bg{
+	width: 100%;
+	background: #111;
+}
+#nav-bg li{
+	border-right: 0;
+	padding-bottom: 20px;
+}
+
+#redes-sociais-icons a {
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    padding: 14px 23px !important;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.navbar-toggler{
+	background: #fff;
+}
+
 }/*FIM RESOLUCAO*/
